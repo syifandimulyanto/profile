@@ -303,6 +303,10 @@ a:hover {
     background-color: #0d47a1
 }
 
+.contact {
+    padding: 0 70px;
+}
+
 .footer {
     padding: 10px 0 30px;
     background-color: #1985A1
@@ -314,6 +318,7 @@ a:hover {
     margin: 8px 0;
     color: #fff
 }
+
 
 @media only screen and (max-width:767px) {
     .wrapper {
@@ -327,5 +332,8 @@ a:hover {
     .main-wrapper .content {
         width: 100%;
         float: left
+    }
+    .contact {
+        padding: 20px;
     }
 }
