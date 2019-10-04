@@ -1,0 +1,331 @@
+@import url("https://fonts.googleapis.com/css?family=Montserrat:300,400,700|Roboto:400,700");
+*:focus,
+*:active {
+    box-shadow: none!important
+}
+
+html,
+body {
+    font: 300 13px/1.5 'Montserrat', sans-serif;
+    color: rgba(0, 0, 0, 0.87);
+    overflow-x: hidden;
+    margin: 0
+}
+
+h1,
+h2,
+h3,
+h4,
+h5 {
+    font-family: 'Roboto', sans-serif;
+    letter-spacing: 2px;
+    margin: 0;
+    padding: 0
+}
+
+body {
+    background-color: #FCFDFF;
+    color: #141E28;
+    font-family: 'Nunito', sans-serif;
+    letter-spacing: 1px;
+    padding-top: 24px;
+    border-top: 4px solid #1985A1
+}
+
+ul,
+ol {
+    margin: 0;
+    padding: 0
+}
+
+a {
+    text-decoration: none!important;
+    -webkit-transition: all ease-in-out 0.1s;
+    -o-transition: all ease-in-out 0.1s;
+    transition: all ease-in-out 0.1s;
+    color: #141E28
+}
+
+a:hover {
+    color: #141E28
+}
+
+.center {
+    text-align: center
+}
+
+.circle {
+    -webkit-border-radius: 50%;
+    border-radius: 50%;
+    overflow: hidden
+}
+
+.li-inline li {
+    display: inline-block
+}
+
+.li-unstyled {
+    list-style: none;
+    margin: 0;
+    padding: 0
+}
+
+.paragraph {
+    font-size: 16px;
+    line-height: 1.5
+}
+
+.paragraph p {
+    margin-top: 0
+}
+
+.hide {
+    display: none!important
+}
+
+.block {
+    display: block!important
+}
+
+.inline-block {
+    display: inline-block!important
+}
+
+.pl-8 {
+    padding-left: 8px
+}
+
+.pr-8 {
+    padding-right: 8px
+}
+
+.comment-form {
+    margin: 16px 0
+}
+
+.comment-form label {
+    color: #344055;
+    font-size: 14px;
+    font-weight: bold;
+    display: inline-block;
+    margin-bottom: 8px
+}
+
+.comment-message {
+    margin: 16px 0
+}
+
+.text-success {
+    font-size: 14px;
+    font-weight: bold;
+    color: #266DD3
+}
+
+.form-input {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #344055;
+    -webkit-border-radius: 4px;
+    border-radius: 4px;
+    margin-bottom: 10px
+}
+
+.btn {
+    display: inline-block;
+    padding: 8px 16px;
+    color: #fff;
+    background-color: #266DD3;
+    -webkit-border-radius: 4px;
+    border-radius: 4px;
+    text-transform: uppercase;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+    border: none;
+    font-size: 16px
+}
+
+.wrapper {
+    max-width: 1140px;
+    margin-left: auto;
+    margin-right: auto
+}
+
+.fullwrapper {
+    width: 100%
+}
+
+.main-wrapper {
+    clear: both;
+    display: block;
+    margin-bottom: 60px
+}
+
+.main-wrapper .sidebar {
+    float: left;
+    width: 30%
+}
+
+.main-wrapper .content {
+    width: 70%;
+    float: left
+}
+
+.main-wrapper:after {
+    content: '';
+    display: block;
+    clear: both
+}
+
+.header {
+    margin-bottom: 30px
+}
+
+.profile-pic {
+    margin-bottom: 16px
+}
+
+.author-name {
+    margin-bottom: 16px
+}
+
+.social li {
+    margin: 0 8px
+}
+
+.social a {
+    font-weight: 800
+}
+
+.social .facebook {
+    color: #3b5999
+}
+
+.social .github {
+    color: #171515
+}
+
+.social .instagram {
+    color: #e4405f
+}
+
+.sidebar-menu {
+    grid-row: 2/3;
+    grid-column: 2/3
+}
+
+.sidebar-menu .grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr
+}
+
+.sidebar-menu .grid .box {
+    position: relative;
+    overflow: hidden;
+    height: 150px
+}
+
+.sidebar-menu .grid .box h3 {
+    display: block;
+    height: 100%;
+    position: relative;
+    z-index: 2
+}
+
+.sidebar-menu .grid .box h3 a {
+    color: #fff;
+    display: block;
+    width: 100%;
+    height: calc(100% - 32px);
+    text-decoration: none;
+    text-transform: uppercase;
+    padding: 16px
+}
+
+.sidebar-menu .grid .box:before {
+    right: 0;
+    display: block;
+    width: 100px;
+    height: 100px;
+    content: '';
+    position: absolute;
+    z-index: 1;
+    top: 50%
+}
+
+.sidebar-menu .grid .box:nth-child(1),
+.sidebar-menu .grid .box:nth-child(4) {
+    background-color: #223C4B
+}
+
+.sidebar-menu .grid .box:nth-child(2),
+.sidebar-menu .grid .box:nth-child(3) {
+    background-color: #305766
+}
+
+.sidebar-menu .grid .box.github:before {
+    background: url(../images/svg/github.svg) no-repeat;
+    -webkit-background-size: cover;
+    background-size: cover
+}
+
+.sidebar-menu .grid .box.github:hover {
+    background-color: #171515
+}
+
+.sidebar-menu .grid .box.instagram:before {
+    background: url(../images/svg/instagram.svg) no-repeat;
+    -webkit-background-size: cover;
+    background-size: cover
+}
+
+.sidebar-menu .grid .box.instagram:hover {
+    background-color: #e4405f
+}
+
+.sidebar-menu .grid .box.linkedin:before {
+    background: url(../images/svg/linkedin.svg) no-repeat;
+    -webkit-background-size: cover;
+    background-size: cover
+}
+
+.sidebar-menu .grid .box.linkedin:hover {
+    background-color: #0976B4
+}
+
+.sidebar-menu .grid .box.man:before {
+    background: url(../images/svg/man.svg) no-repeat;
+    -webkit-background-size: cover;
+    background-size: cover
+}
+
+.sidebar-menu .grid .box.man:hover {
+    background-color: #0d47a1
+}
+
+.footer {
+    padding: 10px 0 30px;
+    background-color: #1985A1
+}
+
+.footer .copyright {
+    display: inline-block;
+    font-size: 12px;
+    margin: 8px 0;
+    color: #fff
+}
+
+@media only screen and (max-width:767px) {
+    .wrapper {
+        padding-left: 8px;
+        padding-right: 8px
+    }
+    .main-wrapper .sidebar {
+        float: left;
+        width: 100%
+    }
+    .main-wrapper .content {
+        width: 100%;
+        float: left
+    }
+}
